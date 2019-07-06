@@ -1,0 +1,29 @@
+.participante {
+    width: 48%;
+    text-align: center;
+}
+.participante img {
+    border-radius: 50%;
+    width: 40%;
+}
+.images{
+    display: flex;
+    margin-top: 10px;
+}
+.line-batalha{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 16px;
+    border: 1px solid #ccc;
+    padding-top: 15px;
+}
+h5{
+    font-size: 13px;
+    font-family: Rubik;
+    margin: 0;
+}
+.rank-geral{
+    margin: 0;
+    color: #cea807;
+  }

@@ -1,0 +1,69 @@
+.participante {
+    width: 48%;
+    text-align: center;
+}
+.participante img {
+    border-radius: 50%;
+    width: 65%;
+}
+.images{
+    display: flex;
+    margin-top: 10px;
+}
+.line-battle-name {
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+    font-size: 15px;
+    color: #8c8989;
+}
+.line-battle-name i{
+    font-size: 28px;
+    margin-top: -12px;
+    margin-bottom: 20px;
+    color: #0600ff;
+    
+}
+.line-battle{
+    display: flex;
+}
+.participante{
+    color: #615f5f;
+    font-size: 13px;
+}
+button{
+    background: green;
+    color: #fff;
+    padding: 7px 15px;
+    border-radius: 13px;
+}
+.back-bar{
+    background: rgba(251, 76, 100, 0.53);
+    height: 5px;
+    border-radius: 22px;
+    position: relative;
+    display: none;
+    margin: 40px auto;
+    width: 75%;
+}
+.front1-bar,
+.front2-bar{
+    height: 5px;
+    border-radius: 22px;
+    background: rgba(251, 76, 100, 0.96);
+    position: relative;
+}
+.front1-bar p,
+.front2-bar p {
+    position: absolute;
+    bottom: 0;
+}
+h5{
+    font-size: 13px;
+}
+.fas.fa-times{
+    font-size: 20px;
+    margin: auto;
+    color: #00ff;
+    margin-top: 43px;
+}

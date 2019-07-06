@@ -1,0 +1,24 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Batalhas</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <div (click)="router.navigate(['/battleProf'])" class="line-batalha">
+      <div class="participante">
+        <img src="../../assets/palestrante-guilherme.jpg" >
+        <h5>Guilherme B.</h5>
+        <p class="rank-geral">10 <i class="fas fa-medal"></i></p>
+      </div>
+      <i class="fas fa-times"></i>
+      <div class="participante">
+        <img (click)="router.navigate(['/home'])" src="../../assets/primoricc.png" >
+        <h5>Primo Rico</h5>
+        <p class="rank-geral">13 <i class="fas fa-medal"></i></p>
+      </div>
+    </div>
+    <div>
+      <img src="../../assets/pockee_dribbble-03_4x.png" alt="">
+    </div>
+</ion-content>

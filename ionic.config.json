@@ -1,5 +1,7 @@
 {
   "name": "battle-app",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }

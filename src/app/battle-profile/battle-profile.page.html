@@ -1,0 +1,62 @@
+<ion-header>
+  <ion-toolbar>
+      <ion-buttons slot="start">
+        <ion-back-button></ion-back-button>
+      </ion-buttons>
+    <ion-title>Batalha</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="main-content">
+    <div class="images">
+      <div class="participante">
+        <img src="../../assets/palestrante-guilherme.jpg" >
+        <h5>Guilherme B.</h5>
+        <button class="button-hid" (click)="getAposta();" >Apoiar</button>
+        <div class="back-bar">
+            <div class="front1-bar">
+              <p>80%</p>
+            </div>
+          </div>
+      </div>
+      <i class="fas fa-times"></i>
+      <div class="participante">
+        <img (click)="router.navigate(['/perfil'])" src="../../assets/primoricc.png" >
+        <h5>Primo Rico</h5>
+        <button class="button-hid" (click)="getAposta();" >Apoiar</button>
+        <div class="back-bar">
+            <div class="front2-bar">
+              <p>20%</p>
+            </div>
+          </div>
+      </div>
+    </div>
+    
+    <div class="line-battle-name">
+        
+       <span style="margin-top: 15px;">Batalha de carteiras</span>
+    </div>
+    <div class="line-battle">
+        <div class="participante">
+          <p>Investimentos:</p>
+          <p>ITUB4 <span>60%</span></p>
+          <p>BBDC4 <span>20%</span></p>
+          <p>BBAS3 <span>20%</span></p>
+          
+          
+          
+        </div>
+        <div class="participante">
+          <p>Investimentos:</p>
+          <p>ITUB4 <span>30%</span></p>
+          <p>BBDC4 <span>20%</span></p>
+          <p>BBAS3 <span>20%</span></p>
+          <p>ITUB2 <span>30%</span></p>
+          
+          
+        </div>
+    </div>
+    
+  </div>
+</ion-content>

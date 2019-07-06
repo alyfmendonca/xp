@@ -1,0 +1,137 @@
+.welcome-card ion-img {
+    max-height: 35vh;
+    overflow: hidden;
+  }
+  .backgroun-inves{
+    background-image: url('../../assets/bolsa_270x167.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    min-height: 100px;
+  }
+  .main-content{
+    background: #ffffff;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    margin-top: -40px;
+    text-align: center;
+  }
+  .profile-image{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    margin-top: -20px;
+    box-shadow: 0 0 10px 0 #ccc;
+  }
+  .user-rede{
+    padding: 0;
+    margin: 0;
+    color: #b5b1b1;
+    font-size: 12px;
+  }
+  .bio{
+    color: #737272;
+    font-size: 13px;
+    padding: 0 10px;
+  }
+  .list-options{
+    display: flex;
+    flex-direction: row;
+  }
+  .list-options span{
+    font-size: 8px;
+    color: #b6b5b5;
+    padding: 0 5px;
+  }
+  .selected{
+    border-radius: 10px;
+    background: #ccc;
+    color: #333 !important;
+  }
+  .patri{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 15px;
+  }
+  .patri span{
+    font-size: 18px;
+    color: #0600ff;
+    font-weight: bold;
+  }
+  .patri p{
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    color: #333; 
+    flex-direction: column-reverse;
+  }
+  .single-investimento{
+    border: 1px solid #ccc;
+    width: 25%;
+    border-radius: 5px;
+    float: left;
+    margin-left: 6%;
+    padding: 2px 5px;
+    transition: ease-in-out .2s all;
+  }
+  .single-investimento:hover, 
+  .single-investimento:focus{
+    background: #fb4c64;
+  }
+  .single-investimento:hover span, 
+  .single-investimento:focus span,
+  .single-investimento:hover p, 
+  .single-investimento:focus p{
+    color: #fff;
+  }
+  .single-investimento p{
+    color: #676767; 
+    display: flex;
+    margin: 5px 0;
+    flex-direction: column-reverse;
+    text-align: left;
+    font-size: 12px;
+  }
+  .single-investimento span{
+    font-size: 18px;
+    color: #fb4c64;
+    font-weight: bold;
+    font-family: Rubik;
+    text-align: left;
+  }
+  
+  .single-total{
+  
+    padding: 0 15px;
+  }
+  .single-total p{
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    color: #333;
+    margin: 5px 0;
+    padding-left: 25px;
+    margin-top: 14px;
+    float: left;
+  }
+  .single-total span{
+    font-size: 18px;
+    color: #fb4c64;
+    font-weight: bold;
+  }
+  .single-total b{
+    font-size: 15px;
+    color: #28e070;
+    padding-left: 15px;
+    font-weight: 300;
+  }
+  .patri{
+    font-family: Rubik;
+  }
+  .rank-geral{
+    margin: 0;
+    color: #cea807;
+  }

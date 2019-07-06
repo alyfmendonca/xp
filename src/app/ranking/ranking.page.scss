@@ -1,0 +1,42 @@
+.participante {
+    display: flex;
+    width: 100%;
+    padding: 15px;
+    border-bottom: 1px solid #ccc;
+    align-items: center;
+}
+.participante img {
+    height: 45px;
+    width: auto;
+    border-radius: 50%;
+}
+.images{
+    display: flex;
+    margin-top: 10px;
+}
+.line-batalha{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 16px;
+    border: 1px solid #ccc;
+    padding-top: 15px;
+}
+h5{
+    font-size: 13px;
+    font-family: Rubik;
+    margin: 0;
+}
+.rank-geral{
+    margin: 0;
+    color: #cea807;
+}
+b{
+    font-size: 15px;
+    color: #28e070;
+    padding-left: 15px;
+    font-weight: 300;
+}
+.infos{
+    padding-left: 15px;
+}

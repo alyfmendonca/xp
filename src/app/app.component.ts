@@ -13,13 +13,17 @@ export class AppComponent {
     {
       title: 'Home',
       url: '/home',
-      icon: 'home'
     },
     {
-      title: 'List',
-      url: '/list',
-      icon: 'list'
+      title: 'Batalhas',
+      url: '/battles',  
+    },
+    {
+      title: 'Ranking',
+      url: '/ranking',  
     }
+
+    
   ];
 
   constructor(
